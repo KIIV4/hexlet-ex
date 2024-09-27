@@ -181,6 +181,103 @@ main {
 
 
 
+main {
+    background: url(media/rectangle23.png) no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.main-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 120px 140px;
+}
+
+
+.left-side {
+    width: 45%;
+     /* Можно изменить на нужную ширину */
+     
+    h1{
+        color: #fff;
+        font-family: "PT Sans";
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 70px;
+        text-align: left;
+        white-space:pre-wrap;
+        padding-bottom: 35px;
+    }
+
+    h2 a{
+        color: #fff;
+        padding-right: 15px;
+        font-family: "PT Sans";
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 22.4px;
+        letter-spacing: 0.1em;
+        text-align: left;
+
+    }
+
+    p{
+        color: #fff;
+        font-family: "PT Sans";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22.4px;
+        text-align: left;
+        white-space:pre-wrap;
+    }
+}
+
+
+.cc{
+    display: flex;
+    align-items: center;
+    padding-top: 45px;
+}
+
+
+.right-side {
+    width: 45%; /* Можно изменить на нужную ширину */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Расстояние между блоками */
+}
+
+
+.block {
+    width: calc((100% - 20px)/2); /* Для двух блоков в ряду */
+    height: 250px; /* Высота блоков */
+    background-color: #5DB7DE;
+    border-radius: 20px;
+
+    p{
+        color: #fff;
+        font-family: "PT Sans";
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 18.2px;
+        letter-spacing: 0.1em;
+        text-align: left;
+        padding: 20px 0 0 30px;
+    }
+
+    h2{
+        color: #fff;
+        font-family: "PT Sans";
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 26.6px;
+        text-align: left;
+        padding: 120px 0 0 30px;
+        white-space:pre-wrap;
+    }
+}
 
 
 
